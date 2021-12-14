@@ -1,0 +1,38 @@
+{
+    "RacingCar": {
+        "checkpoints": [
+            {
+                "steps": 499645,
+                "file_path": "results\\RacingCar\\RacingCar\\RacingCar-499645.onnx",
+                "reward": -1.4520434970441072,
+                "creation_time": 1636547181.3207672,
+                "auxillary_file_paths": [
+                    "results\\RacingCar\\RacingCar\\RacingCar-499645.pt"
+                ]
+            },
+            {
+                "steps": 565831,
+                "file_path": "results\\RacingCar\\RacingCar\\RacingCar-565831.onnx",
+                "reward": -1.4520400190353393,
+                "creation_time": 1636547296.8991227,
+                "auxillary_file_paths": [
+                    "results\\RacingCar\\RacingCar\\RacingCar-565831.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 565831,
+            "file_path": "results\\RacingCar\\RacingCar.onnx",
+            "reward": -1.4520400190353393,
+            "creation_time": 1636547296.8991227,
+            "auxillary_file_paths": [
+                "results\\RacingCar\\RacingCar\\RacingCar-565831.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.9.1+cpu"
+    }
+}

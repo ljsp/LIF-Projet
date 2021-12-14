@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1637825818",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "A:\\Unity\\Projets\\LIF Projet\\venv\\Scripts\\mlagents-learn config/Worm.yaml --run-id=WormTest",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cu111",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1637825893"
+    },
+    "total": 75.0056968,
+    "count": 1,
+    "self": 0.02598449999999275,
+    "children": {
+        "run_training.setup": {
+            "total": 0.6283200000000004,
+            "count": 1,
+            "self": 0.6283200000000004
+        },
+        "TrainerController.start_learning": {
+            "total": 74.3513923,
+            "count": 1,
+            "self": 0.00010629999999878237,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 74.3512617,
+                    "count": 1,
+                    "self": 74.3512617
+                },
+                "TrainerController._save_models": {
+                    "total": 2.43000000068605e-05,
+                    "count": 1,
+                    "self": 2.43000000068605e-05
+                }
+            }
+        }
+    }
+}

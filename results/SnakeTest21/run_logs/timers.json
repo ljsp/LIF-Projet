@@ -1,0 +1,73 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1638433732",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "A:\\Unity\\Projets\\LIF Projet\\venv\\Scripts\\mlagents-learn config/Snake.yaml --run-id=SnakeTest21",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cu111",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1638433798"
+    },
+    "total": 66.0075205,
+    "count": 1,
+    "self": 0.004351300000010383,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10034829999999983,
+            "count": 1,
+            "self": 0.10034829999999983
+        },
+        "TrainerController.start_learning": {
+            "total": 65.9028209,
+            "count": 1,
+            "self": 0.0006800999999967416,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.0322394,
+                    "count": 1,
+                    "self": 10.0322394
+                },
+                "TrainerController.advance": {
+                    "total": 55.05213200000001,
+                    "count": 1,
+                    "self": 2.1300000000223918e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 55.05211070000001,
+                            "count": 1,
+                            "self": 55.052105100000006,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 5.600000001493299e-06,
+                                    "count": 1,
+                                    "self": 5.600000001493299e-06
+                                }
+                            }
+                        }
+                    }
+                },
+                "trainer_threads": {
+                    "total": 7.999999951380232e-07,
+                    "count": 1,
+                    "self": 7.999999951380232e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.8177685999999937,
+                    "count": 1,
+                    "self": 0.009457900000001018,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.8083106999999927,
+                            "count": 1,
+                            "self": 0.8083106999999927
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

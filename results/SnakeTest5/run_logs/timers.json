@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1638402595",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "A:\\Unity\\Projets\\LIF Projet\\venv\\Scripts\\mlagents-learn config/Snake.yaml --run-id=SnakeTest5",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cu111",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1638402639"
+    },
+    "total": 44.134901600000006,
+    "count": 1,
+    "self": 0.010119700000004173,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09930559999999988,
+            "count": 1,
+            "self": 0.09930559999999988
+        },
+        "TrainerController.start_learning": {
+            "total": 44.0254763,
+            "count": 1,
+            "self": 0.0007738000000045986,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 44.0246874,
+                    "count": 1,
+                    "self": 44.0246874
+                },
+                "trainer_threads": {
+                    "total": 9.000000034120603e-07,
+                    "count": 1,
+                    "self": 9.000000034120603e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.4199999995412327e-05,
+                    "count": 1,
+                    "self": 1.4199999995412327e-05
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1637234102",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "A:\\Unity\\Projets\\LIF Projet\\venv\\Scripts\\mlagents-learn config/Default.yaml --run-id=SnakeAgent2",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cu111",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1637234121"
+    },
+    "total": 18.689196799999998,
+    "count": 1,
+    "self": 0.004273299999997704,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11804130000000002,
+            "count": 1,
+            "self": 0.11804130000000002
+        },
+        "TrainerController.start_learning": {
+            "total": 18.5668822,
+            "count": 1,
+            "self": 0.00012059999999891602,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 18.5667463,
+                    "count": 1,
+                    "self": 18.5667463
+                },
+                "TrainerController._save_models": {
+                    "total": 1.5300000001161607e-05,
+                    "count": 1,
+                    "self": 1.5300000001161607e-05
+                }
+            }
+        }
+    }
+}

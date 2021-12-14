@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1634299389",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "A:\\Unity\\Projets\\LIF Projet\\venv\\Scripts\\mlagents-learn config/rollerball_config.yaml --run-id=RollerBall",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cu111",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1634299414"
+    },
+    "total": 24.9919345,
+    "count": 1,
+    "self": 0.020458999999995342,
+    "children": {
+        "run_training.setup": {
+            "total": 0.25589459999999997,
+            "count": 1,
+            "self": 0.25589459999999997
+        },
+        "TrainerController.start_learning": {
+            "total": 24.715580900000003,
+            "count": 1,
+            "self": 0.00013450000000503337,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 24.715434,
+                    "count": 1,
+                    "self": 24.715434
+                },
+                "TrainerController._save_models": {
+                    "total": 1.2399999999246347e-05,
+                    "count": 1,
+                    "self": 1.2399999999246347e-05
+                }
+            }
+        }
+    }
+}
